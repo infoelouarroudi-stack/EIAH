@@ -5,11 +5,11 @@
 ### Système proposé
 
 Un LLM fine-tuné qui analyse les données élèves (performances, erreurs, rythme) pour scorer la pertinence des exercices proposés. 
+(Le système repose sur un modèle LLM fine-tuné qui analyse les données d'apprentissage des élèves (historique de performance, vitesse de résolution, types d'erreurs) pour scorer et classifier la pertinence des exercices proposés. L'architecture comporte trois modules principaux:)
 
 **Trois composants principaux :**
-- Profil apprenant
-- Module de scoring LLM
-- Adaptation dynamique
+- Profil apprenant (Un module de représentation des profils d'apprenants qui encode le niveau actuel, les lacunes identifiées et le rythme d'apprentissage)
+- Module de scoring LLM(Un module de scoring de pertinence basé sur LLM qui évalue l'adéquation exercice-élève selon plusieurs critères (difficulté, prérequis, style pédagogique))
 
 ---
 
